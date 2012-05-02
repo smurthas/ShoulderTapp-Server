@@ -11,6 +11,7 @@
     "express":"",
     "connect":"",
     "request":"",
+    "mongodb":"",
     "apn":""
   },
   "devDependencies": {},
