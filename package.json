@@ -1,0 +1,21 @@
+{
+  "author": "Simon Murtha-Smith <simon@murtha-smith.com>",
+  "name": "ShoulderTapp-Server",
+  "description": "Don't Shrug it off",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/smurthas/ShoulderTapp-Server.git"
+  },
+  "dependencies": {
+    "express":"",
+    "connect":"",
+    "request":"",
+    "apn":""
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
