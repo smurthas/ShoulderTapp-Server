@@ -17,6 +17,6 @@
   "devDependencies": {},
   "optionalDependencies": {},
   "engines": {
-    "node": "*"
+    "node": "v0.6.14"
   }
 }
