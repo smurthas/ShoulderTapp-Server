@@ -3,6 +3,7 @@ var connect = require('connect');
 
 var endpoints = require('./lib/endpoints');
 var config = require('./lib/config');
+var controller = require('./lib/controller');
 
 var app = express.createServer(connect.bodyParser());
 
@@ -14,7 +15,7 @@ app.get('/auth_callback', endpoints.authCallback);
 
 endpoints.init(function(err) {
   if (err) return console.error(err);
+  controller.start();
   app.listen(config.app.port);
   console.log('listening on ' + config.app.port);
 });
-

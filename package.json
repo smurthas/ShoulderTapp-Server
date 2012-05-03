@@ -12,6 +12,7 @@
     "connect":"",
     "request":"",
     "mongodb":"",
+    "async":"",
     "apn":""
   },
   "devDependencies": {},
